@@ -1,5 +1,6 @@
 # src/main.py
-from backend.restaurants import Restaurants
+
+from restaurants import Restaurants
 import tkinter as tk
 from tkinter import (
     Button,
@@ -103,7 +104,6 @@ def display_option_selector_frame(root, font_styles):
     back_button = Button(option_selector_frame, text="Go Back", font=font_styles[0], command=lambda: display_order_method_frame(root, font_styles))
     back_button.grid(row=3, column=0, padx=10, pady=10)
 
-
 def display_random_restaurant_frame(root, font_styles):
     background_color = "Gold"
     restaurant_reason_string = "How about " + restaurant_list[0]["reason"]
@@ -177,7 +177,7 @@ def display_view_all_frame(root, font_styles):
 if __name__ == "__main__":
     # CONFIGURE WINDOW
     root = tk.Tk()
-    root.iconbitmap("resources\images\dining_icon.ico")
+    root.iconbitmap("src/images/dining_icon.ico")
     root.title("Dining Dilemma")
     root.geometry("750x500")
     root.columnconfigure(0, weight=1)

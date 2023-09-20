@@ -13,7 +13,7 @@ Prerequisites:
 - Ensure that the `src.restaurants` module is correctly installed or available in your Python environment.
 """
 
-from src.backend.restaurants import Restaurants
+from restaurants import Restaurants
 import unittest
 
 # Run tests from the project root directory with the command:
