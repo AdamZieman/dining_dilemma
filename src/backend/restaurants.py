@@ -134,9 +134,9 @@ class Restaurants:
 
     def get_restaurants_list(self):
         """
-        Get the list of restaurants for the specified order method.
+        Get the list of restaurants.
         Returns:
-            list: A list of restaurant entries.
+            list: A list of restaurants.
         """
-        return self.restaurants_list
+        return [restaurant["name"] for restaurant in self.restaurants_list]
 
