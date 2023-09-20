@@ -74,6 +74,10 @@ class Restaurants:
         ],
         TAKE_OUT: [
             {
+                "name": "Popeyes Louisiana Kitchen",
+                "reason": "fried chicken, biscuits, cajon fries, and coleslaw"
+            },
+            {
                 "name": "Chick-fil-A",
                 "reason": "chicken sandwiches and waffle fries"
             },
@@ -104,6 +108,10 @@ class Restaurants:
             {
                 "name": "Di Stefano's Pizza Place",
                 "reason": "pizza"
+            },
+            {
+                "name": "Betos Pizza",
+                "reason": "mango habanero chicken wings"
             },
             {
                 "name": "Super No. 1 Chinese",
