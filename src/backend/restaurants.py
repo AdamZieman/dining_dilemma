@@ -17,7 +17,7 @@ class Restaurants:
         DINE_IN: [
             {
                 "name": "Milwaukee Burger Company",
-                "reason": "cajon french fries, cheese curds, and burgers"
+                "reason": "cajon fries, cheese curds, and burgers"
             },
             {
                 "name": "Ricardo's Pizza",
@@ -69,17 +69,17 @@ class Restaurants:
             },
             {
                 "name": "New China Buffet",
-                "reason": "a Chinese buffet"
+                "reason": "Chinese buffet"
             }
         ],
         TAKE_OUT: [
             {
                 "name": "Chick-fil-A",
-                "reason": "chicken sandwich and waffle fries"
+                "reason": "chicken sandwiches and waffle fries"
             },
             {
                 "name": "Culver's",
-                "reason": "burger, cheese curds, and onion rings"
+                "reason": "burgers, cheese curds, and onion rings"
             },
             {
                 "name": "Wendy's",
@@ -87,15 +87,15 @@ class Restaurants:
             },
             {
                 "name": "Subway",
-                "reason": "a custom made sub"
+                "reason": "custom made subs"
             },
             {
                 "name": "Cousins Subs",
-                "reason": "a quality sub"
+                "reason": "quality subs"
             },
             {
                 "name": "Panera Bread",
-                "reason": "a soup and a sandwich"
+                "reason": "soup and a sandwiches"
             },
             {
                 "name": "Noodles and Company",
