@@ -1,5 +1,4 @@
 # src/backend/resaurants.py
-
 from random import sample
 
 class Restaurants:
@@ -74,6 +73,10 @@ class Restaurants:
         ],
         TAKE_OUT: [
             {
+                "name": "Wingstop",
+                "reason": "lemon pepper wings"
+            },
+            {
                 "name": "Popeyes Louisiana Kitchen",
                 "reason": "fried chicken, biscuits, cajon fries, and coleslaw"
             },
@@ -104,6 +107,10 @@ class Restaurants:
             {
                 "name": "Noodles and Company",
                 "reason": "noodles or pasta"
+            },
+            {
+                "name": "Papa Murphy's | Take 'N' Bake Pizza",
+                "reason": "pizza"
             },
             {
                 "name": "Di Stefano's Pizza Place",
