@@ -32,9 +32,9 @@ HEIGHT = 500
 COLORS_DICTIONARY = {
     "back_button_bg": "red",
     "back_button_fg": "white",
-    "button_bg": "blue",
+    "button_bg": "magenta",
     "button_fg": "white",
-    "background": "skyblue",
+    "background": "lightpink",
     "text": "black"
 }
 
