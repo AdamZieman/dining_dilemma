@@ -1,4 +1,9 @@
-# src/backend/resaurants.py
+"""
+Defines a Restaurants object which stores a list of dictionaries for restaurants (nested within a dictionary), 
+Defines a Restaurants object with the approptiate list of dictionaries to be accessed. A Restaurants object can return a random
+list of restaurants of a length determined by the parameter (default = 1). The Restaurants object can also return a list of
+all restaurants' names from its list.
+"""
 from random import sample
 
 class Restaurants:
@@ -136,7 +141,7 @@ class Restaurants:
         assert order_method in [Restaurants.DINE_IN, Restaurants.TAKE_OUT]
         self.restaurants_list = Restaurants.RESTAURANTS_LISTS[order_method]
 
-    def generate_random_list(self, count=1):
+    def generate_random_list(self, count = 1):
         """
         Generate a random list of restaurants from the specified order method.
         Args:
