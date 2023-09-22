@@ -1,7 +1,6 @@
 <h1 align="center">Dining Dilemma</h1>
 
-<!-- TODO: Description -->
-<!-- TODO: Video -->
+<p>A GUI application which assists indesisive users with selecting their diner plans. After selecting whether or not the user would like to have take out or to dine in, they may choose to either generate a single, random restaurant; 3 random restaurants; or view all restaurants choices within their dining preference. The list of restaurants are hard coded into the Restaurants object.</p>
 
 <!-- Requirements Section -->
 <h2>Requirements</h2>
@@ -113,6 +112,23 @@
     <p>Displays a list of the name of all the restaurants, includes a scroll wheel if the list grows to large, and a button to go back to the Option Selection.</p>
     <p>The list that was returned by the Restaurants object will be iterated through, and populate a list box. The list box will be configured to a vertical scroll bar, so that the user can scroll up and down the list, if it were to grow to large to view all at once.</p>
   </dd>
-
-  
 </dl>
+
+<br>
+
+<!-- Improvements -->
+<h3>Improvements?</h3>
+<p>If I were to improve this code, I would:</p>
+<ul>
+  <li>Modulize the GUI code</li>
+  <li>Implement a relational database to store the restaurant list</li>
+  <ul>
+    <li>Add more data (i.e., cusines) with search options for the respective data</li>
+    <li>While this would require a database connection, it would remove the block of restaurants list</li>
+  </ul>
+  <li>Improve the UI by using a different library, framework, or language</li>
+  <ul>
+    <li>While a massive improvement, also a massive task</li>
+    <li>This is my first GUI program so I'm not too disappointed with it</li>
+  </ul>
+</ul>
