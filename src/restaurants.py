@@ -1,4 +1,6 @@
 """
+Defines a Restaurants object
+
 Defines a Restaurants object which stores a list of dictionaries for restaurants (nested within a dictionary), 
 Defines a Restaurants object with the approptiate list of dictionaries to be accessed. A Restaurants object can return a random
 list of restaurants of a length determined by the parameter (default = 1). The Restaurants object can also return a list of
